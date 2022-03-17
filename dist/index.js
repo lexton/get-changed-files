@@ -3510,7 +3510,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const core = __importStar(__webpack_require__(470));
 const github_1 = __webpack_require__(469);
-const ZERO_COMMIT = "0000000000000000000000000000000000000000";
+const ZERO_COMMIT = '0000000000000000000000000000000000000000';
 function run() {
     var _a, _b, _c, _d;
     return __awaiter(this, void 0, void 0, function* () {
