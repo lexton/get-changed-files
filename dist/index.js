@@ -3510,6 +3510,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const core = __importStar(__webpack_require__(470));
 const github_1 = __webpack_require__(469);
+const ZERO_COMMIT = "0000000000000000000000000000000000000000";
 function run() {
     var _a, _b, _c, _d;
     return __awaiter(this, void 0, void 0, function* () {
@@ -3545,7 +3546,7 @@ function run() {
             core.info(`Base commit: ${base}`);
             core.info(`Head commit: ${head}`);
             // Ensure that the base and head properties are set on the payload.
-            if (!base || !head) {
+            if (!base || !head || base === ZERO_COMMIT || head === ZERO_COMMIT) {
                 core.setFailed(`The base and head commits are missing from the payload for this ${github_1.context.eventName} event. ` +
                     "Please submit an issue on this action's GitHub repo.");
                 // To satisfy TypeScript, even though this is unreachable.
