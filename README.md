@@ -24,9 +24,15 @@ See [action.yml](action.yml)
 
 # Scenarios
 
-- [Get all changed files as space-delimited](#get-all-changed-files-as-space-delimited)
-- [Get all added and modified files as CSV](#get-all-added-and-modified-files-as-csv)
-- [Get all removed files as JSON](#get-all-removed-files-as-json)
+- [Get All Changed Files](#get-all-changed-files)
+- [Usage](#usage)
+- [Scenarios](#scenarios)
+  - [Get all changed files as space-delimited](#get-all-changed-files-as-space-delimited)
+  - [Get all added and modified files as CSV](#get-all-added-and-modified-files-as-csv)
+  - [Get all removed files as JSON](#get-all-removed-files-as-json)
+- [Install, Build, Lint, Test, and Package](#install-build-lint-test-and-package)
+- [License](#license)
+  - [Rebuilds 1](#rebuilds-1)
 
 ## Get all changed files as space-delimited
 
@@ -82,3 +88,5 @@ $ yarn all
 # License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
+
+## Rebuilds 1
